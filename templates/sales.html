@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css"
+    />
+    <script src="https://use.fontawesome.com/78bab9acb2.js"></script>
+    <title>Sales</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <a class="navbar-brand" href="/">Gulo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/dashboard">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/sales">Sales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/inventories">Inventories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/stock">Stock</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- main container -->
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Sidebar start-->
+        <div class="col-3">
+          <!-- Sidebar -->
+          <ul class="list-group">
+            <li class="list-group-item">
+              <!-- avatar -->
+              <!-- <img src="/static/images/stock.jpg" class="rounded float-left mr-3" alt="Dashboard Avatar" width="50px" height="30px"> -->
+              <!-- heading -->
+              <h3><i class="fa fa-bars" aria-hidden="true"></i> Nav Menu</h3>
+            </li>
+            <a href="/dashboard"
+              ><li class="list-group-item">
+                <i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard
+              </li>
+            </a>
+            <a href="/inventories"
+              ><li class="list-group-item">
+                <i class="fa fa-database" aria-hidden="true"></i> Inventories
+              </li></a
+            >
+            <a href="/sales"
+              ><li class="list-group-item">
+                <i class="fa fa-money" aria-hidden="true"></i> Sales
+              </li></a
+            >
+            <a href="/stock"
+              ><li class="list-group-item">
+                <i class="fa fa-dropbox" aria-hidden="true"></i> Stock
+              </li></a
+            >
+            <a href="/users"
+              ><li class="list-group-item">
+                <i class="fa fa-user" aria-hidden="true"></i> Users
+              </li></a
+            >
+          </ul>
+
+          <!-- sidebar end -->
+        </div>
+        <!-- sidebar end -->
+        <!-- main col start -->
+        <div class="col-md-9 col-sm-6 p-4">
+          <!-- table start -->
+          <table class="table">
+            <thead>
+              <tr>
+                <!-- <th scope="col">#</th> -->
+                <th>ID</th>
+                <th>Product ID</th>
+                <th>Quantity Sold</th>
+                <th>Revenue</th>
+                <th>Sales Date</th>
+                <th>Product Name</th>
+                <!-- <th>Loss</th> -->
+                <!-- <th>Revenue</th> -->
+                <!-- <th>Profit</th> -->
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!-- <td> 1 </td> -->
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- table end -->
+        </div>
+      </div>
+    </div>
+    <!-- page container end -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  </body>
+</html>
